@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: rgba(45, 45, 45, .2)
+}
+
+#banner {
+    background-color: rgba(156, 170, 191, .5);
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    padding: 25px 0px;
+    border-bottom-color: rgba(156, 170, 191, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 2px 2px 2px 2px rgba(156, 170, 191, .7);
+}
+
+#nav {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: transparent;
+    width: 72%;
+}
+
+li {
+    float: right;
+    text-transform: uppercase;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    font-size: 1
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:click{
+    background-color: pink;
+}
+
+#work-area{
+    width: 72%;
+    display: block;
+    margin:10px auto;
+    background-color: darkgray;
+    height: 400px;
+}
